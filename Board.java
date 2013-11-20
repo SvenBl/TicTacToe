@@ -61,18 +61,5 @@ public class Board {
 		}
 	}
 	
-	public static void main(String[] args) {
-		Board board = new Board();
-		/*try {
-			board.setMark(0,0,true);
-			board.setMark(0,1,true);
-			board.setMark(0,2,true);
-		} catch (InvalidPositionException e) {
-			e.printStackTrace();
-		}*/
-		System.out.println(board.hasWinner());
-
-		
-	}
 
 }
